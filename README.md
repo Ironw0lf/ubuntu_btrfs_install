@@ -11,7 +11,7 @@ lsblk
 # Create new partition using gdisk (example /dev/sda)
 sudo gdisk /dev/sda
 # n (new partition) → 1 → Enter → +512M → EF00 (EFI)
-# n → 2 → Enter → Enter (reste de l'espace) → 8300 (Linux)
+# n → 2 → Enter → Enter (remaining space) → 8300 (Linux)
 # w (write and exit)
 ```
 3. Format partitions:
