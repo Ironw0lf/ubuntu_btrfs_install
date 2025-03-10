@@ -23,11 +23,12 @@ sudo mkfs.fat -F32 /dev/sda1
 sudo mkfs.btrfs /dev/sda2
 ```
 4. Create BTRFS sub-volumes:
+You can create only @ and @home if you wish, Timeshift will be happy with that!
 ```
 # Mount BTRFS
 sudo mount /dev/sda2 /mnt
 
-# create sub-volume, you can create only @ and @home if you wish
+# create sub-volume
 sudo btrfs subvolume create /mnt/@
 sudo btrfs subvolume create /mnt/@home
 sudo btrfs subvolume create /mnt/@var
