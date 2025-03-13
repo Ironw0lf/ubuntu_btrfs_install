@@ -105,5 +105,5 @@ sudo reboot
 10. In ubuntu desktop install Timeshift
 11. Install grub-btrfs https://github.com/Antynea/grub-btrfs
 
-You should now have ubuntu using BTRFS with timeshift and access to snapshot via grub.
+You should now have ubuntu using BTRFS with timeshift and access to snapshot via grub. It will be very barebone and you should go into the software updater to add the repository you want!
  
