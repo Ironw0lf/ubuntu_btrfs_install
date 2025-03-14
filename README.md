@@ -1,5 +1,5 @@
 # ubuntu_btrfs_install
-How to install ubuntu 23.04 with BTRFS, timeshift and snapshot access via GRUB.
+How to install ubuntu 24.04 with BTRFS, timeshift and snapshot access via GRUB.
 I was looking for a way to install this on my laptop and it took me a bit of research and trial and error but now it's working!
 
 1. Start the ubuntu live USB and choose "Try ubuntu"
